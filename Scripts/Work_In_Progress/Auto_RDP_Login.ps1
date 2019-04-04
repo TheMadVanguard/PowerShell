@@ -2,7 +2,7 @@
 #
 # Auto login RDS Sessions
 #
-# Version 1.0
+# Version 0.1
 # Written by Jay
 
 Invoke-Item "C:\scripts\RDP Login.rdp"
