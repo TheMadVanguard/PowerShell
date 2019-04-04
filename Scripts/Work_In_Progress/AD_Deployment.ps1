@@ -2,7 +2,7 @@
 #
 # Script to deploy AD
 #
-# Version 1.0
+# Version 0.1
 # Written by Jay
 
 
