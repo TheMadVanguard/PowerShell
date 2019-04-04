@@ -1,8 +1,10 @@
 # Info
+#
 # This PowerShell script will query Active Directory and return the computer accounts which have not logged for the past
 # 90 days. 
 # The last part of this script will query Active Directory and remove computer accounts which have not logged for the past
 # 120 days.
+#
 # Version 1.0
 # Written by Jay
 

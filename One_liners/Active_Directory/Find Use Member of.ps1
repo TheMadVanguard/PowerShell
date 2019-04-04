@@ -1,4 +1,7 @@
-﻿# See what groups a user is part of
+﻿# Info 
+#
+# See what groups a user is part of
+#
 # Version 1.0
 # Written by Jay
 
