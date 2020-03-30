@@ -1,6 +1,6 @@
 # Info
 #
-# Command to connect to Office 365.
+# Command to connect to Exchange Online.
 #
 # Version 1.1
 # Written by Jay
