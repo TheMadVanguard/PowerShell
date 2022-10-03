@@ -1,5 +1,4 @@
 $DNSNames = Get-DnsServerResourceRecord -ZoneName "JayP.io" -computername "JP-DC-001" | Where-Object {$_.RecordType -eq 'A'} 
-$DNSHostnames = $DNSNames.hostname 
 $servers = $DNSNames.hostname 
 
 $collection = $()
