@@ -1,3 +1,10 @@
+# Info
+#
+# Script to ping a and cnames within a DC
+#
+# Version 1.0
+# Written by Jay
+
 $DNSNames = Get-DnsServerResourceRecord -ZoneName "JayP.io" -computername "JP-DC-001" | Where-Object {$_.RecordType -eq 'A' -or ($_.RecordType -eq 'CName')}
 $servers = $DNSNames.hostname 
 
