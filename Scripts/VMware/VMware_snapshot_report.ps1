@@ -1,6 +1,6 @@
 # Info
 #
-# Script to monitor the DEV Hutwood court vCenter and report on VMs with Snapshots
+# Script to monitor a vCenter server and report on VMs with Snapshots
 #
 #
 # Version 1.0
@@ -10,8 +10,8 @@
 Import-Module VMware.PowerCLI
 
 # vCenter Variables 
-$vCenter = "JP-VCSA-001.jayp.io"
-$vCenter_Name = "JP-VCSA-001.jayp.io"
+$vCenter = "vCenter URL"
+$vCenter_Name = "vCenter Friendly Name"
 
 # Connects to vCenter
 Connect-VIServer $vCenter -WarningAction SilentlyContinue
