@@ -1,6 +1,7 @@
-API Permissions
+# API Permissions
 
-DownloadImmichFavorites
-asset.read
-asset.view
-asset.download
+## DownloadImmichFavorites
+
+- asset.read
+- asset.view
+- asset.download
